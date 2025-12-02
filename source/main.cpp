@@ -21,8 +21,8 @@ public:
     GraphsMenu() {}
 
     virtual tsl::elm::Element* createUI() override {
-		// "Status Monitor" -> "状态监视", "FPS" -> "FPS" (通用术语不翻译)
-		rootFrame = new tsl::elm::OverlayFrame("状态监视", "FPS");
+		// "Status Monitor" -> "状态监控", "FPS" -> "FPS" (通用术语不翻译)
+		rootFrame = new tsl::elm::OverlayFrame("状态监控", "FPS");
 		auto list = new tsl::elm::List();
 
 		// "Graph" -> "图表模式"
@@ -73,8 +73,8 @@ public:
     OtherMenu() { }
 
     virtual tsl::elm::Element* createUI() override {
-		// "Status Monitor" -> "状态监视", "Other" -> "其他"
-		rootFrame = new tsl::elm::OverlayFrame("状态监视", "其他");
+		// "Status Monitor" -> "状态监控", "Other" -> "其他"
+		rootFrame = new tsl::elm::OverlayFrame("状态监控", "其他");
 		auto list = new tsl::elm::List();
 
 		// "Battery/Charger" -> "电池/充电信息"
@@ -138,8 +138,8 @@ public:
     MainMenu() {}
 
     virtual tsl::elm::Element* createUI() override {
-		// "Status Monitor" -> "状态监视"
-		rootFrame = new tsl::elm::OverlayFrame("状态监视", APP_VERSION "(星野無上)");
+		// "Status Monitor" -> "状态监控"
+		rootFrame = new tsl::elm::OverlayFrame("Status Monitor", APP_VERSION "(星野無上)");
 		auto list = new tsl::elm::List();
 		
 		// "Full" -> "完整模式"

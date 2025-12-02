@@ -51,8 +51,8 @@ public:
 	}
 
     virtual tsl::elm::Element* createUI() override {
-		// "Status Monitor" -> "状态监视"
-		rootFrame = new tsl::elm::OverlayFrame("状态监视", APP_VERSION "(星野無上)");
+		// "Status Monitor" -> "状态监控"
+		rootFrame = new tsl::elm::OverlayFrame("状态监控", APP_VERSION "(星野無上)");
 
 		auto Status = new tsl::elm::CustomDrawer([this](tsl::gfx::Renderer *renderer, u16 x, u16 y, u16 w, u16 h) {
 			
